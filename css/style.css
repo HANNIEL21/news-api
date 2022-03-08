@@ -1,0 +1,26 @@
+
+.card{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+.card > img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card-body{
+    height: 100px;
+    overflow: hidden;
+}
+
+.card-text{
+    height: 100px;
+    overflow: hidden;
+}
+#preloader{
+    height: 85vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
